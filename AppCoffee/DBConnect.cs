@@ -10,12 +10,13 @@ namespace AppCoffee
   public  class DBConnect
     {
         private SqlConnection con;
-        public string strcon = "Data Source=DESKTOP-D3EMUEJ\\SQLEXPRESS;Initial Catalog=QLCaPhe_Official;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;MultipleActiveResultSets=True;";
+        public string strConn = "Data Source=DESKTOP-D3EMUEJ\\SQLEXPRESS;Initial Catalog=QLCaPhe_Official;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;MultipleActiveResultSets=True;";
+        public string connectionString = "Data Source=.;Initial Catalog=QLCaPhe_Official;Integrated Security=True;";
 
         public SqlConnection Con { get => con; set => con = value; }
         public DBConnect()
         {
-            Con = new SqlConnection(strcon);
+            Con = new SqlConnection(connectionString);
         }
         public void Open()
         {
