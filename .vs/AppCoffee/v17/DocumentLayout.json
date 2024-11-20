@@ -1,0 +1,500 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|d:\\hocky7\\cnpmnc\\appcoffee\\appcoffee\\appcoffee\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmquanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\crystalreportbieudo.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\crystalreportbieudo.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\crystalreporthoadon.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\crystalreporthoadon.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmsuataikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmsuataikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\dstaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\dstaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmbieudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmbieudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\dsban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\dsban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\cauhinh_quanlycaphe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\cauhinh_quanlycaphe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmsuataikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmsuataikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\chitietbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\chitietbill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\mon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\mon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\loai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\dsmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\dsmon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmquanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmquanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\appcoffee\\frmmain.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmmain.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmMain.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.cs",
+              "RelativeToolTip": "AppCoffee\\frmMain.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmQuanLy.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmQuanLy.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmQuanLy.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmQuanLy.cs",
+              "RelativeToolTip": "AppCoffee\\frmQuanLy.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswLsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmLogin.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmLogin.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmLogin.cs",
+              "RelativeToolTip": "AppCoffee\\frmLogin.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmLogin.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmLogin.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmLogin.cs [Design]",
+              "RelativeToolTip": "AppCoffee\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.353Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmMain.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.cs [Design]",
+              "RelativeToolTip": "AppCoffee\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.355Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DBConnect.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\DBConnect.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DBConnect.cs",
+              "RelativeToolTip": "AppCoffee\\DBConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrystalReportBieuDo.rpt",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CrystalReportBieuDo.rpt",
+              "RelativeDocumentMoniker": "AppCoffee\\CrystalReportBieuDo.rpt",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CrystalReportBieuDo.rpt",
+              "RelativeToolTip": "AppCoffee\\CrystalReportBieuDo.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAYVSURBVEhLhVVpbxvXFT1v9hkOd1LULktJLMWxJTuyLbdB4yS2gSJAArRAjX5NvuR3\u002BP/0H/RT0Ri20UWGGsRWtO8STUkUZzic7b3XS1qhHLto7uByOG85527vPoYLYfPz89r8/T85Vq5subalnI//T4nTVPrthlDgB1UgePTokTifei1p\u002Bi0Y\u002B6ZPQOB6pOVL97788/VytXa1mHMMTWUKyfmKCxFCIEpTftw4Cdptf3lne\u002B3FztLaq6dP/xJ1p88X3eiq1vsgcV1XJaMqhmF84jj2Hwo5xzV0TT2f/oWkQiIiF\u002BIwaZKFj0dqwxaf8p7PBg8aS0t/7dASAUVZpPdiH2Bo6JauKqw6e/uThdHRoYVrl0dKE8PVbG2gmBl8SyulfCaXybhSMXJkTDnj2NXmyUmrE7YCHntBq9XqeiG7uH2CWm3KMCyt8tHHt\u002BcHKtXrUyNFx3VMXVNUVVNVlZzpK2OKyiVTw0TotMaplHJ53SLKXIU3z6Kzcn40PDpa5wQr3wmwQg95AlNXoamvp6WUEKRcir5KEIOqqG7GyRaLxYlSbehBuTb8\u002BcT7H8wOTr5fmrh713iN9yvS9bOnPRKBWMbgSGlMIOUC9WaAjcOWFktWsvP5hem5m1\u002BPTb83Mzs0l\u002B/u/z8EjKqsq92/EgmL0cQplsWP2JJraGtNZPMM5YKFSt5mI5WsXitnC8Vitua6dsbMu70CejdEBNgDPv9mCoWGpWgzD4fYx2L6D/wgFnGobsLIRxioGhivZUlzqBUzStaxNMdQFdNIexDvekAjXat7llMgUnp8tAj8AKvyJzwP/4Unwd/xJPobtrGCUGvBtlQ4lg7L0KDTfvWidrpwd8mVeb2RekakMoNCrVLMGb0RyQhNcYrtdAt7YhfHso7j9BW24w38J1rEs85jbKQ/oUMmMIVT6Xc9ZlAJ36anRzB096vC2P2HVWPk3hDLXqn5se6GCRQqQTQTD/vxAdbjdeynezjjTXSSAMdRAxvBGv7pPcWSt4idcAuh7FBdUWX\u002BHNtz0SrTt\u002Bcoh1VN5WO6Icf2vOxl9wTGbjNkDWMXK8kLNOQRAqWNJj9F4HcQdyLwhFNG9vDE/B5hNsRXtT9SZ3Dexofy\u002BbWK/em1Unbhw3Lh6mS1aJiOc9Rk7NnLkC0uS6xvq9g9DnEYnOKYN5BECUSDzsG2hLVvoxYOYsKaQFbLwFDe7SzKg\u002BtF/3dXndbty87Z3KWMX86ZUZgq8odNLl\u002BumNjbKOHg0ETdpzLlHkRMSTrTkam7mPAvYd64id8Uf4uqWSUCs5eHN0WJPW81DE6XDBk8K9qdpakBHE4P62kpwyBjB616Df7OBwjro0j9HJTIRImVMZObwRdT93Br\u002BBbGsmNwNIc6gEoh6nrxRhU10taJHch96o0bcdvfcPT0pFYAn71kysmqg4ySBzsbB9\u002B9Ark5h0w4jI8qs7j34X3cee8OJiuTyOgOtRUN1N2pvH/pgvLd1zeDhw9vni0t/3i8srVRlzL0Co4Qs5cMTA9bqGYc2EkF6tFl6Ns3MMyv4MbgAj6d\u002BQwzozMo50oErtIBfX3yiQLE1Zc\u002B3fLK93J58bFMOp7UaDTnaKjmdAwWdORtHa7moqaO47Pi7/Fx4Q4G7CGYmkUx71pNQLSnm\u002BOuvpnqC3/299FqHcs45eB0ocScUdek3kq7bUNFztRRshwM6INwWRFMaOCcelQqkFDT66qgfW9Ln6BhWTJOEuqQUtBBE6eBFF5HylQQgaVIajOiaCtcFVqahEjaQZJ4QUzXSxR77TD2gzDuhFESJ3SXEpWqJT22Cw9IpIx5nCD0Q\u002BZvHqXJsccFhUuUs4wPF3k44Eatdrt9cvDqrLG5f1Jf2Tiov1zdrr9Y3eq9t/eOXjVPT0/9lhf5ftC7m/vpGGOMtwx4eddcLWSMfyu6MmsZokLlaoQRD8i0HbqEtzpReMik4gmRdHRFpBRBAiKX6TfodIIwCusyiddNrvtd3D5BvV4X4\u002BPj3tRAbr024j6nm3KgE8ZOEAKen7aazXjt4Mh/1jgLXjRSfmiYdtPmrdg0GU9MSgaJEkaCee3EUYNg09tMAOC/naPwXokjZuQAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-05-30T05:59:22.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmSuaTaiKhoan.cs [Design]",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmSuaTaiKhoan.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmSuaTaiKhoan.cs",
+              "ToolTip": "E:\\AppCoffee\\AppCoffee\\AppCoffee\\frmSuaTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T05:59:22.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrystalReportHoaDon.rpt",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CrystalReportHoaDon.rpt",
+              "RelativeDocumentMoniker": "AppCoffee\\CrystalReportHoaDon.rpt",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CrystalReportHoaDon.rpt",
+              "RelativeToolTip": "AppCoffee\\CrystalReportHoaDon.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAYVSURBVEhLhVVpbxvXFT1v9hkOd1LULktJLMWxJTuyLbdB4yS2gSJAArRAjX5NvuR3\u002BP/0H/RT0Ri20UWGGsRWtO8STUkUZzic7b3XS1qhHLto7uByOG85527vPoYLYfPz89r8/T85Vq5subalnI//T4nTVPrthlDgB1UgePTokTifei1p\u002Bi0Y\u002B6ZPQOB6pOVL97788/VytXa1mHMMTWUKyfmKCxFCIEpTftw4Cdptf3lne\u002B3FztLaq6dP/xJ1p88X3eiq1vsgcV1XJaMqhmF84jj2Hwo5xzV0TT2f/oWkQiIiF\u002BIwaZKFj0dqwxaf8p7PBg8aS0t/7dASAUVZpPdiH2Bo6JauKqw6e/uThdHRoYVrl0dKE8PVbG2gmBl8SyulfCaXybhSMXJkTDnj2NXmyUmrE7YCHntBq9XqeiG7uH2CWm3KMCyt8tHHt\u002BcHKtXrUyNFx3VMXVNUVVNVlZzpK2OKyiVTw0TotMaplHJ53SLKXIU3z6Kzcn40PDpa5wQr3wmwQg95AlNXoamvp6WUEKRcir5KEIOqqG7GyRaLxYlSbehBuTb8\u002BcT7H8wOTr5fmrh713iN9yvS9bOnPRKBWMbgSGlMIOUC9WaAjcOWFktWsvP5hem5m1\u002BPTb83Mzs0l\u002B/u/z8EjKqsq92/EgmL0cQplsWP2JJraGtNZPMM5YKFSt5mI5WsXitnC8Vitua6dsbMu70CejdEBNgDPv9mCoWGpWgzD4fYx2L6D/wgFnGobsLIRxioGhivZUlzqBUzStaxNMdQFdNIexDvekAjXat7llMgUnp8tAj8AKvyJzwP/4Unwd/xJPobtrGCUGvBtlQ4lg7L0KDTfvWidrpwd8mVeb2RekakMoNCrVLMGb0RyQhNcYrtdAt7YhfHso7j9BW24w38J1rEs85jbKQ/oUMmMIVT6Xc9ZlAJ36anRzB096vC2P2HVWPk3hDLXqn5se6GCRQqQTQTD/vxAdbjdeynezjjTXSSAMdRAxvBGv7pPcWSt4idcAuh7FBdUWX\u002BHNtz0SrTt\u002Bcoh1VN5WO6Icf2vOxl9wTGbjNkDWMXK8kLNOQRAqWNJj9F4HcQdyLwhFNG9vDE/B5hNsRXtT9SZ3Dexofy\u002BbWK/em1Unbhw3Lh6mS1aJiOc9Rk7NnLkC0uS6xvq9g9DnEYnOKYN5BECUSDzsG2hLVvoxYOYsKaQFbLwFDe7SzKg\u002BtF/3dXndbty87Z3KWMX86ZUZgq8odNLl\u002BumNjbKOHg0ETdpzLlHkRMSTrTkam7mPAvYd64id8Uf4uqWSUCs5eHN0WJPW81DE6XDBk8K9qdpakBHE4P62kpwyBjB616Df7OBwjro0j9HJTIRImVMZObwRdT93Br\u002BBbGsmNwNIc6gEoh6nrxRhU10taJHch96o0bcdvfcPT0pFYAn71kysmqg4ySBzsbB9\u002B9Ark5h0w4jI8qs7j34X3cee8OJiuTyOgOtRUN1N2pvH/pgvLd1zeDhw9vni0t/3i8srVRlzL0Co4Qs5cMTA9bqGYc2EkF6tFl6Ns3MMyv4MbgAj6d\u002BQwzozMo50oErtIBfX3yiQLE1Zc\u002B3fLK93J58bFMOp7UaDTnaKjmdAwWdORtHa7moqaO47Pi7/Fx4Q4G7CGYmkUx71pNQLSnm\u002BOuvpnqC3/299FqHcs45eB0ocScUdek3kq7bUNFztRRshwM6INwWRFMaOCcelQqkFDT66qgfW9Ln6BhWTJOEuqQUtBBE6eBFF5HylQQgaVIajOiaCtcFVqahEjaQZJ4QUzXSxR77TD2gzDuhFESJ3SXEpWqJT22Cw9IpIx5nCD0Q\u002BZvHqXJsccFhUuUs4wPF3k44Eatdrt9cvDqrLG5f1Jf2Tiov1zdrr9Y3eq9t/eOXjVPT0/9lhf5ftC7m/vpGGOMtwx4eddcLWSMfyu6MmsZokLlaoQRD8i0HbqEtzpReMik4gmRdHRFpBRBAiKX6TfodIIwCusyiddNrvtd3D5BvV4X4\u002BPj3tRAbr024j6nm3KgE8ZOEAKen7aazXjt4Mh/1jgLXjRSfmiYdtPmrdg0GU9MSgaJEkaCee3EUYNg09tMAOC/naPwXokjZuQAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-05-30T05:59:22.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DSTaiKhoan.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSTaiKhoan.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\DSTaiKhoan.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSTaiKhoan.cs",
+              "RelativeToolTip": "AppCoffee\\DSTaiKhoan.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAIAwwCsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmBieuDo.cs [Design]",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmBieuDo.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmBieuDo.cs",
+              "ToolTip": "E:\\AppCoffee\\AppCoffee\\AppCoffee\\frmBieuDo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T05:59:22.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmHoaDon.cs",
+              "ToolTip": "E:\\AppCoffee\\AppCoffee\\AppCoffee\\frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T05:59:22.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DSBan.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSBan.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\DSBan.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSBan.cs",
+              "RelativeToolTip": "AppCoffee\\DSBan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\TaiKhoan.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\TaiKhoan.cs",
+              "RelativeToolTip": "AppCoffee\\TaiKhoan.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CauHinh_QuanLyCaPhe.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CauHinh_QuanLyCaPhe.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\CauHinh_QuanLyCaPhe.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\CauHinh_QuanLyCaPhe.cs",
+              "RelativeToolTip": "AppCoffee\\CauHinh_QuanLyCaPhe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Program.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Program.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Program.cs",
+              "RelativeToolTip": "AppCoffee\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAewBIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmSuaTaiKhoan.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmSuaTaiKhoan.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmSuaTaiKhoan.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmSuaTaiKhoan.cs",
+              "RelativeToolTip": "AppCoffee\\frmSuaTaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T05:59:22.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChiTietBill.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\ChiTietBill.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\ChiTietBill.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\ChiTietBill.cs",
+              "RelativeToolTip": "AppCoffee\\ChiTietBill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Account.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Account.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Account.cs",
+              "RelativeToolTip": "AppCoffee\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ban.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Ban.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Ban.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Ban.cs",
+              "RelativeToolTip": "AppCoffee\\Ban.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Bill.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Bill.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Bill.cs",
+              "RelativeToolTip": "AppCoffee\\Bill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DSMon.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSMon.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\DSMon.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\DSMon.cs",
+              "RelativeToolTip": "AppCoffee\\DSMon.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmQuanLy.Designer.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmQuanLy.Designer.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmQuanLy.Designer.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmQuanLy.Designer.cs",
+              "RelativeToolTip": "AppCoffee\\frmQuanLy.Designer.cs",
+              "ViewState": "AgIAADgDAAAAAAAAAAAMwFUDAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Mon.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Mon.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Mon.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Mon.cs",
+              "RelativeToolTip": "AppCoffee\\Mon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Loai.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Loai.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\Loai.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\Loai.cs",
+              "RelativeToolTip": "AppCoffee\\Loai.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "AppCoffee\\frmMain.Designer.cs",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.Designer.cs",
+              "RelativeToolTip": "AppCoffee\\frmMain.Designer.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv7IAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:59:22.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmMain.resx",
+              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.resx",
+              "RelativeDocumentMoniker": "AppCoffee\\frmMain.resx",
+              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmMain.resx",
+              "RelativeToolTip": "AppCoffee\\frmMain.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-30T05:59:22.395Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
