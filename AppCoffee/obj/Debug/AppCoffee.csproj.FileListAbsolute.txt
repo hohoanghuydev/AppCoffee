@@ -18,3 +18,6 @@ D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\bin\Debug\CrystalDecisions.Window
 D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.csproj.Up2Date
 D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.exe
 D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.pdb
+D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.frmNhapKho.resources
+D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.frmChiTietNhap.resources
+D:\HocKy7\CNPMNC\AppCoffee\AppCoffee\AppCoffee\obj\Debug\AppCoffee.frmPhieuNhap.resources

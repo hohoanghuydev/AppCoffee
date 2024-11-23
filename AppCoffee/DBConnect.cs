@@ -7,16 +7,16 @@ using System.Data.SqlClient;
 using System.Data;
 namespace AppCoffee
 {
-  public  class DBConnect
+    public class DBConnect
     {
         private SqlConnection con;
         public string strConn = "Data Source=DESKTOP-D3EMUEJ\\SQLEXPRESS;Initial Catalog=QLCaPhe_Official;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;MultipleActiveResultSets=True;";
-        public string connectionString = "Data Source=.;Initial Catalog=QLCaPhe_Official;Integrated Security=True;";
+        private readonly string _connectionString = "Data Source=.;Initial Catalog=QLCaPhe_Official;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;MultipleActiveResultSets=True;";
 
         public SqlConnection Con { get => con; set => con = value; }
         public DBConnect()
         {
-            Con = new SqlConnection(connectionString);
+            Con = new SqlConnection(_connectionString);
         }
         public void Open()
         {
@@ -39,7 +39,7 @@ namespace AppCoffee
                 Close();
                 return kq;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return kq;
             }
@@ -61,11 +61,11 @@ namespace AppCoffee
                 Close();
                 return kq;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return 0;
             }
-            
+
         }
 
         public SqlDataReader GetReader(string sql)
@@ -82,6 +82,84 @@ namespace AppCoffee
             {
                 return null;
             }
+        }
+
+        public DataTable ExecuteQuery(string query, CommandType commandType, params SqlParameter[] parameters)
+        {
+            try
+            {
+                using (SqlConnection connection = OpenConnection())
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.CommandType = commandType;
+
+                        if (parameters != null)
+                        {
+                            command.Parameters.AddRange(parameters);
+                        }
+
+                        using (SqlDataAdapter adapter = new SqlDataAdapter(command))
+                        {
+                            DataTable dataTable = new DataTable();
+                            adapter.Fill(dataTable);
+                            return dataTable;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //Loi gi do
+                return null;
+            }
+        }
+
+        public int ExecuteNonQuery(string query, CommandType commandType, params SqlParameter[] parameters)
+        {
+            using (SqlConnection connection = OpenConnection())
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.CommandType = commandType;
+
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
+                    return command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public object ExecuteScalar(string query, CommandType commandType, params SqlParameter[] parameters)
+        {
+            using (SqlConnection connection = OpenConnection())
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.CommandType = commandType;
+
+                    if (parameters != null)
+                    {
+                        command.Parameters.AddRange(parameters);
+                    }
+
+                    return command.ExecuteScalar();
+                }
+            }
+        }
+
+        private SqlConnection OpenConnection()
+        {
+            SqlConnection connection = new SqlConnection(_connectionString);
+
+            if (connection.State == ConnectionState.Closed)
+            {
+                connection.Open();
+            }
+            return connection;
         }
     }
 }

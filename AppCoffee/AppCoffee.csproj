@@ -65,6 +65,8 @@
     <Compile Include="Bill.cs" />
     <Compile Include="CauHinh_QuanLyCaPhe.cs" />
     <Compile Include="ChiTietBill.cs" />
+    <Compile Include="ChiTietPhieuNhap.cs" />
+    <Compile Include="ChiTietPhieuNhapController.cs" />
     <Compile Include="CrystalReportBieuDo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -78,6 +80,8 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="DBConnect.cs" />
+    <Compile Include="DonVi.cs" />
+    <Compile Include="DonViController.cs" />
     <Compile Include="DSBan.cs" />
     <Compile Include="DSLoai.cs" />
     <Compile Include="DSMon.cs" />
@@ -87,6 +91,12 @@
     </Compile>
     <Compile Include="frmBieuDo.Designer.cs">
       <DependentUpon>frmBieuDo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietNhap.Designer.cs">
+      <DependentUpon>frmChiTietNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHoaDon.cs">
       <SubType>Form</SubType>
@@ -99,6 +109,18 @@
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNhapKho.Designer.cs">
+      <DependentUpon>frmNhapKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuNhap.Designer.cs">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLy.cs">
       <SubType>Form</SubType>
@@ -120,6 +142,10 @@
     </Compile>
     <Compile Include="Loai.cs" />
     <Compile Include="Mon.cs" />
+    <Compile Include="NguyenLieu.cs" />
+    <Compile Include="NguyenLieuController.cs" />
+    <Compile Include="PhieuNhap.cs" />
+    <Compile Include="PhieuNhapController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaiKhoan.cs" />
@@ -134,11 +160,20 @@
     <EmbeddedResource Include="frmBieuDo.resx">
       <DependentUpon>frmBieuDo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietNhap.resx">
+      <DependentUpon>frmChiTietNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNhapKho.resx">
+      <DependentUpon>frmNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuNhap.resx">
+      <DependentUpon>frmPhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLy.resx">
       <DependentUpon>frmQuanLy.cs</DependentUpon>
