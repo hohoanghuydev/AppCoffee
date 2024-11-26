@@ -28,6 +28,7 @@ namespace AppCoffee
         {
             this.buttonTaoPhieuNhapMoi.Click += ButtonTaoPhieuNhapMoi_Click;
             this.buttonThemVaoPhieuNhap.Click += ButtonThemVaoPhieuNhap_Click;
+            this.comboBoxNguyenLieu.SelectedIndexChanged += ComboBoxNguyenLieu_SelectedIndexChanged;
             LoadDanhSachNguyenLieuNhap();
             if (maPhieuNhap != 0)
             {
@@ -35,7 +36,17 @@ namespace AppCoffee
                 buttonTaoPhieuNhapMoi.Text = "Cập nhật";
             }
             LoadDanhSachNguyenLieu();
-            LoadDanhSachDonVi();
+        }
+
+        private void ComboBoxNguyenLieu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBoxNguyenLieu.SelectedIndex < 0)
+            {
+                return;
+            }
+
+            int maNguyenLieu = Convert.ToInt32((comboBoxNguyenLieu.SelectedItem as NguyenLieu).MaNguyenLieu);
+            LoadDanhSachDonVi(maNguyenLieu);
         }
 
         private void LoadDanhSachNguyenLieu()
@@ -47,9 +58,9 @@ namespace AppCoffee
             comboBoxNguyenLieu.ValueMember = "MaNguyenLieu";
         }
 
-        private void LoadDanhSachDonVi()
+        private void LoadDanhSachDonVi(int maNguyenLieu)
         {
-            DataTable dataTable = _controllerDonVi.LayDanhSachDonVi();
+            DataTable dataTable = _controllerDonVi.LayDanhSachDonVi(maNguyenLieu);
 
             comboBoxDonVi.DataSource = dataTable;
             comboBoxDonVi.DisplayMember = "TenDonVi";

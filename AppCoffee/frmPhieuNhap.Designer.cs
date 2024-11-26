@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxMaPhieuNhap = new System.Windows.Forms.TextBox();
             this.buttonXemChiTiet = new System.Windows.Forms.Button();
+            this.buttonLamMoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPhieuNhap)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,6 +87,15 @@
             this.buttonXemChiTiet.Text = "Xem chi tiết";
             this.buttonXemChiTiet.UseVisualStyleBackColor = true;
             // 
+            // buttonLamMoi
+            // 
+            this.buttonLamMoi.Location = new System.Drawing.Point(737, 12);
+            this.buttonLamMoi.Name = "buttonLamMoi";
+            this.buttonLamMoi.Size = new System.Drawing.Size(153, 45);
+            this.buttonLamMoi.TabIndex = 1;
+            this.buttonLamMoi.Text = "Làm mới";
+            this.buttonLamMoi.UseVisualStyleBackColor = true;
+            // 
             // frmPhieuNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -93,6 +103,7 @@
             this.ClientSize = new System.Drawing.Size(1220, 607);
             this.Controls.Add(this.textBoxMaPhieuNhap);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.buttonLamMoi);
             this.Controls.Add(this.buttonXemChiTiet);
             this.Controls.Add(this.buttonTaoPhieuNhap);
             this.Controls.Add(this.dataGridViewPhieuNhap);
@@ -112,5 +123,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxMaPhieuNhap;
         private System.Windows.Forms.Button buttonXemChiTiet;
+        private System.Windows.Forms.Button buttonLamMoi;
     }
 }

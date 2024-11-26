@@ -16,11 +16,11 @@ namespace AppCoffee
             _database = new DBConnect();
         }
 
-        public DataTable LayDanhSachDonVi()
+        public DataTable LayDanhSachDonVi(int maNguyenLieu)
         {
-            string query = "select * from DonViTinh";
+            string query = "select * from DonViTinh where MaNguyenLieu = @maNguyenLieu";
 
-            return _database.ExecuteQuery(query, System.Data.CommandType.Text);
+            return _database.ExecuteQuery(query, System.Data.CommandType.Text, new System.Data.SqlClient.SqlParameter("@maNguyenLieu", maNguyenLieu));
         }
     }
 }

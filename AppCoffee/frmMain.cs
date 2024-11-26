@@ -19,7 +19,7 @@ namespace AppCoffee
         Button btnDoi; // lưu lại nút muốn đổi
         int idBan; // lưu lại id của bàn muốn đổi
         int idBanSelecting; // lưu lại id bàn đang được chọn
-        int count = 0; 
+        int count = 0;
         List<Mon> dsMon; // list danh sách món muốn lưu
         DataTable dataTab; // Lưu dữ liệu cho datatable
         DataTable dataTabTenMon; // Lưu dữ liệu cho datatable tên món
@@ -44,7 +44,7 @@ namespace AppCoffee
         // Hàm tạo form đóng
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            switch(typeClose)
+            switch (typeClose)
             {
                 case 0:
                     {
@@ -63,7 +63,7 @@ namespace AppCoffee
                         }
                         break;
                     }
-            }    
+            }
             typeClose = 0;
         }
 
@@ -72,15 +72,18 @@ namespace AppCoffee
         {
             updateComboLoaiMon();
             loadBan();
-            pnl_1.Enabled = pnl_4.Enabled = pnl_5.Enabled = false;
+            panelTaoHoaDon.Enabled = panelThongTinHoaDon.Enabled = panelDanhSachDatMon.Enabled = false;
             tàiKhoảnToolStripMenuItem.Text = User.Trim();
             string admin = "Admin";
+
             if (Chucvu.ToLower() == admin.ToLower()) // kiểm tra quyền xem tài khoản đó là quản lý hay nhân viên
             {
                 quảnLýToolStripMenuItem.Enabled = true; // nếu là quản lý thì được vào trang quản lý
             }
             else
+            {
                 quảnLýToolStripMenuItem.Enabled = false; // nếu là nhân viên thì không được truy cập
+            }
             txt_nameStaff.Text = Tenhienthi;
         }
 
@@ -125,7 +128,7 @@ namespace AppCoffee
             typeClose = 1;
             frmLogin f = new frmLogin(); // khởi tạo form
             Close(); // đóng form hiện tại
-            if(flagDangXuat)
+            if (flagDangXuat)
                 flagDangXuat = false;
             else
                 f.Show(); // show form mới
@@ -165,17 +168,17 @@ namespace AppCoffee
         }
 
         // Lấy id của hóa đơn khi biết trạng thái và bàn
-        public int getIdHoaDon(string y)
+        public int getIdHoaDon(string maBan)
         {
-            int x = 0;
-            string str = "select idhoadon from hoadon as hd where hd.idban = " + y + " and hd.trangthai = 'false'";
-            rdr = db.GetReader(str); // gán giá trị cho rdr để duyệt
+            int maHoaDon = 0;
+            string query = "select idhoadon from hoadon as hd where hd.idban = " + maBan + " and hd.trangthai = 'false'";
+            rdr = db.GetReader(query); // gán giá trị cho rdr để duyệt
             while (rdr.Read())
             {
-                x = int.Parse(rdr.GetValue(0).ToString()); // gán giá trị id cho x;
+                maHoaDon = int.Parse(rdr.GetValue(0).ToString()); // gán giá trị id cho x;
             }
             db.Close();
-            return x;
+            return maHoaDon;
         }
 
         // Lấy id của món khi biết tên món
@@ -195,7 +198,7 @@ namespace AppCoffee
         // load thông tin hóa đơn lên bảng datagridview Hóa đơn
         public void loadThongTinHoaDon(string x)
         {
-            dataTab = new  DataTable();
+            dataTab = new DataTable();
             string str = "select ROW_NUMBER() OVER (ORDER BY MA.tenMon) AS [STT], MA.tenMon as [Name], ttHD.soLuong as [Số Lượng], ttHD.soLuong * MA.gia as [Thành tiền] from Mon as MA, ChiTietHoaDon as ttHD, HoaDon as HD where MA.idMon = ttHD.idMon and ttHD.idHoaDon = " + getIdHoaDon(x) + " and HD.idHoaDon = ttHD.idHoaDon and HD.trangThai = 'false'";
             dataTab = db.GetDataTable(str); // gán giá trị cho table
             dgv_thongTinHoaDon.DataSource = dataTab; // đưa thông tin cho dgv
@@ -218,7 +221,7 @@ namespace AppCoffee
         public void loadBan()
         {
             string str = "select idBan, trangThai, tenBan from Ban";
-            rdr= db.GetReader(str); // giá giá trị cho rdr
+            rdr = db.GetReader(str); // giá giá trị cho rdr
             while (rdr.Read())
             {
                 Button btn = new Button() { Width = 112, Height = 94 }; // khởi tạo nút
@@ -249,7 +252,7 @@ namespace AppCoffee
             if (btnSelecting != null) // nếu rồi thì vào trong xử lý
             {
                 str = "select trangThai from Ban where tenBan = N'Bàn " + btnSelecting.Text + "'";
-                rdr= db.GetReader(str);
+                rdr = db.GetReader(str);
                 while (rdr.Read())
                 {
                     // nếu là trạng thái true là đã có bàn đặt thì đánh màu đỏ
@@ -270,21 +273,21 @@ namespace AppCoffee
             txtSoBan.Text = txt_countTable.Text = btn.Text; // gán số bàn
             // kiếm tra xem hóa bàn đã bận hay chưa để load thông tin
             str = "select * from HoaDon as HD where HD.idBan = " + btn.Text + " and HD.trangThai = 'false'";
-            rdr= db.GetReader(str);
+            rdr = db.GetReader(str);
             while (rdr.Read())
             { // trường hợp bàn bận thì ta load thông tin
                 txt_nameGuest.Text = rdr.GetValue(1).ToString(); // gán tên
                 loadThongTinHoaDon(btn.Text); // thông tin hóa đơn đc load
-                pnl_5.Enabled = pnl_4.Enabled = pnl_1.Enabled = true; //cách chức năng khác được bật
-                pnl_1.Enabled = btnXacNhan.Enabled = false; // khóa lại nhập thông tin khách
+                panelDanhSachDatMon.Enabled = panelThongTinHoaDon.Enabled = panelTaoHoaDon.Enabled = true; //cách chức năng khác được bật
+                panelTaoHoaDon.Enabled = btnXacNhan.Enabled = false; // khóa lại nhập thông tin khách
                 loadHoaDon(); // load các thông tin tổng tiền, giảm giá, thành tiền
                 btn_thanhToan.Enabled = false;
             }
             if (!rdr.HasRows)// trường hợp bàn không bận thì trả về trạng thái ban đầu 
             {
                 txt_nameGuest.Text = ""; // gán tên
-                pnl_5.Enabled = pnl_4.Enabled = false; // khóa những nút chưa có quyền hạn
-                pnl_1.Enabled = true; // nhập thông tin khách được bật
+                panelDanhSachDatMon.Enabled = panelThongTinHoaDon.Enabled = false; // khóa những nút chưa có quyền hạn
+                panelTaoHoaDon.Enabled = true; // nhập thông tin khách được bật
                 dgv_thongTinHoaDon.DataSource = null; // xét lại thông dgv hóa đơn
                 txt_TongTienHoaDon.Clear(); // xóa dữ liệu cũ
                 txt_GiamGia.Clear(); // xóa dữ liệu cũ
@@ -305,7 +308,7 @@ namespace AppCoffee
         // click vào button thêm món
         private void btn_themMon_Click(object sender, EventArgs e)
         {
-            if(nud_soLuong.Value != 0)
+            if (nud_soLuong.Value != 0)
             {
                 if (testNull(txtGiaTri.Text) && testNull(txtTongTien.Text))
                 {
@@ -348,7 +351,8 @@ namespace AppCoffee
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
                 }
-            } else
+            }
+            else
             {
                 MessageBox.Show("Số lượng món là 0");
             }
@@ -357,7 +361,7 @@ namespace AppCoffee
         // kiểm tra đổi món
         public void doiMon()
         {
-            if(nud_soLuong.Value != 0)
+            if (nud_soLuong.Value != 0)
             {
                 string str;
                 try
@@ -372,7 +376,7 @@ namespace AppCoffee
                             if (getIdTenMon(i.Cells[1].Value.ToString()) == getIdTenMon(dgv_tenMon.SelectedRows[0].Cells[1].Value.ToString()))
                                 y = 1;
                         }
-                        if(y == 1) // nếu đổi món khác trùng thì update
+                        if (y == 1) // nếu đổi món khác trùng thì update
                         {
                             str = "update ChiTietHoaDon set soLuong = soLuong + " + nud_soLuong.Value + " where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + " and idMon = " + getIdTenMon(dgv_tenMon.SelectedRows[0].Cells[1].Value.ToString()) + " ";
                             str += "delete from ChiTietHoaDon where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + " and idMon = " + getIdTenMon(dgv_thongTinHoaDon.SelectedRows[0].Cells[1].Value.ToString()) + " ";
@@ -380,7 +384,7 @@ namespace AppCoffee
                         else // nếu đổi món khác không trùng thì đổi món khác
                         {
                             str = "update ChiTietHoaDon set idMon = " + getIdTenMon(dgv_tenMon.SelectedRows[0].Cells[1].Value.ToString()) + ", soLuong = " + nud_soLuong.Value + ", gia = " + txtGiaTri.Text + " where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + " and idMon = " + getIdTenMon(dgv_thongTinHoaDon.SelectedRows[0].Cells[1].Value.ToString()) + " ";
-                        }    
+                        }
                         str += "update HoaDon set tongTien = (select sum(thanhTien) from ChiTietHoaDon as CTHD where CTHD.idHoaDon = " + getIdHoaDon(txtSoBan.Text) + ") where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + "";
                         db.GetNonQuery(str);
                         MessageBox.Show("Món đổi thành công", "Thông báo");
@@ -394,7 +398,8 @@ namespace AppCoffee
                 {
                     MessageBox.Show("KhÔng thể đổi món!");
                 }
-            } else
+            }
+            else
             {
                 MessageBox.Show("Số lượng món là 0");
             }
@@ -417,8 +422,8 @@ namespace AppCoffee
                     else // nếu thành tiền khác 0
                     {
                         int tongTien = (int)db.Getscalar(str1);
-                        str = "update HoaDon set tongTien = "+tongTien+" where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + "";
-                    }    
+                        str = "update HoaDon set tongTien = " + tongTien + " where idHoaDon = " + getIdHoaDon(txtSoBan.Text) + "";
+                    }
                     db.GetNonQuery(str);
                 }
                 catch
@@ -435,7 +440,7 @@ namespace AppCoffee
             {
                 if (i is TextBox) // trường hợp là text
                 {
-                    TextBox txt = (TextBox)i; 
+                    TextBox txt = (TextBox)i;
                     if (txt.Name != "txt_countTable" && txt.Name != "txt_nameStaff") // trường hợp là text bàn
                     {
                         txt.Clear();
@@ -470,7 +475,7 @@ namespace AppCoffee
             }
             catch
             {
-                MessageBox.Show("KhÔng thể đổi trạng thái bàn !");
+                MessageBox.Show("Không thể đổi trạng thái bàn !");
             }
         }
 
@@ -484,8 +489,8 @@ namespace AppCoffee
                     string str = "update HoaDon set trangThai = 'true' where idBan = " + txtSoBan.Text + "";
                     db.GetNonQuery(str);
                     updateBan(); // update lại trạng thía bàn
-                    clearData(pnl_1); // clear lại 
-                    clearData(pnl_4); // clear lại 
+                    clearData(panelTaoHoaDon); // clear lại 
+                    clearData(panelThongTinHoaDon); // clear lại 
                     MessageBox.Show("Thanh toán thành công!");
                 }
                 catch
@@ -518,17 +523,17 @@ namespace AppCoffee
             // nếu contextmenutrip mà đang để thành chữ đôiủ bàn thì đổi thành hoàn thành đổi bàn
             if (tsmi_doiban.Text == "Đổi bàn")
             {
-                if(count != 0)
+                if (count != 0)
                 {
                     btnDoi = new Button();
                     btnDoi = btnSelecting; // gán lại button cho btnDoi
                     tsmi_doiban.Text = "Hoàn thành đổi bàn";
                     idBan = idBanSelecting;
-                }    
+                }
                 else
                 {
                     MessageBox.Show("Bàn này trống không thể đổi", "Thông báo");
-                }    
+                }
             }
             else // nếu contextmenutrip mà đang để thành chữ hoàn thành đổi bàn thì ta thực hiện đổi chữ về đổi bàn và thực hiện câu lệnh đổi bàn
             {
@@ -565,7 +570,7 @@ namespace AppCoffee
             foreach (Mon monAn in dsMon)
             {
                 if (monAn.TenMonAn.Contains(ten)) // món ăn có tên có kí tự thì nhận
-                { 
+                {
                     lstFind.Add(monAn); // thêm vào anh sách
                 }
             }
@@ -578,7 +583,7 @@ namespace AppCoffee
             List<Mon> ds = new List<Mon>();
             ds = find(txt_timKiemMon.Text); // lấy được danh sách
             dgv_tenMon.DataSource = loadDataToGridView(ds); // load vào datagrid
-            txtGiaTri.DataBindings.Clear(); 
+            txtGiaTri.DataBindings.Clear();
             txtGiaTri.DataBindings.Add("Text", dgv_tenMon.DataSource, "Giá"); //binding
         }
 
@@ -617,7 +622,7 @@ namespace AppCoffee
                 table.Rows.Add(row);
                 count++;
             }
-            
+
             return table;
         }
 
@@ -626,7 +631,7 @@ namespace AppCoffee
         {
             doiMon(); // hàm đổi món
             loadThongTinHoaDon(txtSoBan.Text); // load lại thông tin hóa đơn
-            loadHoaDon(); 
+            loadHoaDon();
         }
 
         // click vào contextmenutrip xóa món
@@ -635,7 +640,7 @@ namespace AppCoffee
             xoaMon();// hàm xoas món
             loadThongTinHoaDon(txtSoBan.Text); // load lại thông tin hóa đơn
             loadHoaDon();
-        } 
+        }
 
         // Click vào thông tin cá nhân
         private void thôngTinCáNhânToolStripMenuItem_Click(object sender, EventArgs e)
@@ -660,7 +665,7 @@ namespace AppCoffee
                 {
                     string str = "insert into HoaDon values(N'" + txt_nameGuest.Text + "', GETDATE()," + idBanSelecting + ", 0, 0, 0, 'false') ";
                     str += "update Ban set trangThai = 'true' where idBan = " + txt_countTable.Text + "";
-                    db.GetNonQuery(str);    
+                    db.GetNonQuery(str);
                     loadBan(); // load lại bàn khi thêm xong
                     pnl_3.Enabled = true;
                     txtSoBan.Text = txt_countTable.Text;
@@ -679,7 +684,7 @@ namespace AppCoffee
         }
 
         // test giá trị = 0 hoặc != 0
-        public bool testGiaTri(string str) 
+        public bool testGiaTri(string str)
         {
             if (int.Parse(str.Trim()) == 0)
             {
@@ -687,7 +692,6 @@ namespace AppCoffee
             }
             return true;
         }
-
 
         // hàm xử lý bấm vào in hóa đơn
         private void btnInHoaDon_Click(object sender, EventArgs e)
@@ -752,6 +756,20 @@ namespace AppCoffee
         private void nud_soLuong_ValueChanged(object sender, EventArgs e)
         {
             txtTongTien.Text = (int.Parse(txtGiaTri.Text) * nud_soLuong.Value).ToString();
+        }
+
+        private void quảnLýKhoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            typeClose = 2;
+            var frmNhapKho = new frmNhapKho();
+            frmNhapKho.Show();
+        }
+
+        private void nhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            typeClose = 2;
+            var frmPhieuNhap = new frmPhieuNhap();
+            frmPhieuNhap.Show();
         }
     }
 }

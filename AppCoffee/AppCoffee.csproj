@@ -144,6 +144,8 @@
     <Compile Include="Mon.cs" />
     <Compile Include="NguyenLieu.cs" />
     <Compile Include="NguyenLieuController.cs" />
+    <Compile Include="NhaCungCap.cs" />
+    <Compile Include="NhaCungCapController.cs" />
     <Compile Include="PhieuNhap.cs" />
     <Compile Include="PhieuNhapController.cs" />
     <Compile Include="Program.cs" />

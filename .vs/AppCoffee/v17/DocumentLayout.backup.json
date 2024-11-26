@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|d:\\hocky7\\cnpmnc\\appcoffee\\appcoffee\\appcoffee\\frmchitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmchitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|d:\\hocky7\\cnpmnc\\appcoffee\\appcoffee\\appcoffee\\chitietphieunhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\chitietphieunhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|d:\\hocky7\\cnpmnc\\appcoffee\\appcoffee\\appcoffee\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|d:\\hocky7\\cnpmnc\\appcoffee\\appcoffee\\appcoffee\\frmchitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{222D1D1F-2EA9-4BFD-B00D-1BAD2BADEC16}|AppCoffee\\AppCoffee.csproj|solutionrelative:appcoffee\\frmchitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,57 +50,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChiTietPhieuNhapController.cs",
-              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\ChiTietPhieuNhapController.cs",
-              "RelativeDocumentMoniker": "AppCoffee\\ChiTietPhieuNhapController.cs",
-              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\ChiTietPhieuNhapController.cs",
-              "RelativeToolTip": "AppCoffee\\ChiTietPhieuNhapController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBYAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T14:46:19.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PhieuNhap.cs",
-              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\PhieuNhap.cs",
-              "RelativeDocumentMoniker": "AppCoffee\\PhieuNhap.cs",
-              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\PhieuNhap.cs",
-              "RelativeToolTip": "AppCoffee\\PhieuNhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:20:04.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmChiTietNhap.cs [Design]",
-              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmChiTietNhap.cs",
-              "RelativeDocumentMoniker": "AppCoffee\\frmChiTietNhap.cs",
-              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmChiTietNhap.cs [Design]",
-              "RelativeToolTip": "AppCoffee\\frmChiTietNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T13:04:36.244Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmChiTietNhap.cs",
-              "DocumentMoniker": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmChiTietNhap.cs",
-              "RelativeDocumentMoniker": "AppCoffee\\frmChiTietNhap.cs",
-              "ToolTip": "D:\\HocKy7\\CNPMNC\\AppCoffee\\AppCoffee\\AppCoffee\\frmChiTietNhap.cs",
-              "RelativeToolTip": "AppCoffee\\frmChiTietNhap.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAYwIUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T09:29:37.294Z",
-              "EditorCaption": ""
             }
           ]
         },

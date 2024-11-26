@@ -17,6 +17,18 @@ namespace AppCoffee
         {
             InitializeComponent();
             this.Load += FrmPhieuNhap_Load;
+            this.FormClosing += FrmPhieuNhap_FormClosing;
+            this.Activated += FrmPhieuNhap_Activated;
+        }
+
+        private void FrmPhieuNhap_Activated(object sender, EventArgs e)
+        {
+            LoadDanhSachPhieuNhap();
+        }
+
+        private void FrmPhieuNhap_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            //visible
         }
 
         private void FrmPhieuNhap_Load(object sender, EventArgs e)
@@ -24,6 +36,11 @@ namespace AppCoffee
             this.dataGridViewPhieuNhap.CellClick += DataGridViewPhieuNhap_CellClick;
             this.buttonTaoPhieuNhap.Click += ButtonTaoPhieuNhap_Click;
             this.buttonXemChiTiet.Click += ButtonXemChiTiet_Click;
+            this.buttonLamMoi.Click += ButtonLamMoi_Click;
+        }
+
+        private void ButtonLamMoi_Click(object sender, EventArgs e)
+        {
             LoadDanhSachPhieuNhap();
         }
 

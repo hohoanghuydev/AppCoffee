@@ -15,5 +15,6 @@ namespace AppCoffee
         public double SoLuongTonKho { get; set; }//Rang buoc so luong ton >= so luong toi thieu
         public double TonkhoToiThieu { get; set; }
         public int TinhTrang { get; set; }
+        public int MaNhaCungCap { get; set; }
     }
 }

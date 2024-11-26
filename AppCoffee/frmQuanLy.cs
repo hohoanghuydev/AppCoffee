@@ -17,11 +17,160 @@ namespace AppCoffee
         public string User; // tên user
         public string Chucvu; // lưu chức vụ
         public string Tenhienthi; // lưu tên hiển thị
+        private readonly NhaCungCapController _controllerNhaCungCap = new NhaCungCapController();
+
         public quanLy()
         {
             InitializeComponent();
             db = new DBConnect();
         }
+
+        private void DataGridViewNhaCungCap_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dataGridViewNhaCungCap.SelectedCells.Count <= 0)
+            {
+                return;
+            }
+
+            int maNhaCungCap = Convert.ToInt32(dataGridViewNhaCungCap.CurrentRow.Cells[0].Value);
+
+            NhaCungCap nhaCungCap = _controllerNhaCungCap.LayNhaCungCap(maNhaCungCap);
+
+            textBoxMaNhaCungCap.Text = nhaCungCap.MaNhaCungCap.ToString();
+            textBoxTenNhaCungCap.Text = nhaCungCap.TenNhaCungCap;
+            textBoxLienHe.Text = nhaCungCap.LienHe;
+            textBoxDiaChi.Text = nhaCungCap.DiaChi;
+        }
+
+        private void LoadDanhSachNhaCungCap()
+        {
+            DataTable dataTable = _controllerNhaCungCap.LayDanhSachNhaCungCap();
+
+            dataGridViewNhaCungCap.DataSource = dataTable;
+        }
+
+        private void ButtonSuaNhaCungCap_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBoxMaNhaCungCap.Text))
+            {
+                MessageBox.Show("Vui lòng nhập chọn nhà cung cấp muốn sửa.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxTenNhaCungCap.Text))
+            {
+                textBoxTenNhaCungCap.Focus();
+                MessageBox.Show("Vui lòng nhập tên nhà cung cấp.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxLienHe.Text))
+            {
+                textBoxLienHe.Focus();
+                MessageBox.Show("Vui lòng nhập số điện thoại liên hệ.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxDiaChi.Text))
+            {
+                textBoxDiaChi.Focus();
+                MessageBox.Show("Vui lòng nhập địa chỉ.");
+                return;
+            }
+
+            var nhaCungCap = new NhaCungCap
+            {
+                MaNhaCungCap = Convert.ToInt32(textBoxMaNhaCungCap.Text),
+                TenNhaCungCap = textBoxTenNhaCungCap.Text,
+                LienHe = textBoxLienHe.Text,
+                DiaChi = textBoxDiaChi.Text
+            };
+
+            if (!_controllerNhaCungCap.SuaNhaCungCap(nhaCungCap))
+            {
+                MessageBox.Show("Sửa thất bại");
+                return;
+            }
+
+            MessageBox.Show("Sửa thành công");
+            LoadDanhSachNhaCungCap();
+            ClearThongTin();
+        }
+
+        private void ClearThongTin()
+        {
+            foreach (Control control in this.tabPage2.Controls)
+            {
+                if (control.GetType() == typeof(TextBox))
+                {
+                    control.Text = string.Empty;
+                }
+            }
+        }
+
+        private void ButtonXoaNhaCungCap_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonThemNhaCungCap_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(textBoxMaNhaCungCap.Text))
+            {
+                MessageBox.Show("Hủy chọn trước khi thực hiện thêm.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxTenNhaCungCap.Text))
+            {
+                textBoxTenNhaCungCap.Focus();
+                MessageBox.Show("Vui lòng nhập tên nhà cung cấp.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxLienHe.Text))
+            {
+                textBoxLienHe.Focus();
+                MessageBox.Show("Vui lòng nhập số điện thoại liên hệ.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxDiaChi.Text))
+            {
+                textBoxDiaChi.Focus();
+                MessageBox.Show("Vui lòng nhập địa chỉ.");
+                return;
+            }
+
+            var nhaCungCap = new NhaCungCap
+            {
+                TenNhaCungCap = textBoxTenNhaCungCap.Text,
+                LienHe = textBoxLienHe.Text,
+                DiaChi = textBoxDiaChi.Text
+            };
+
+            if (!_controllerNhaCungCap.ThemNhaCungCap(nhaCungCap))
+            {
+                MessageBox.Show("Thêm thất bại");
+                return;
+            }
+
+            MessageBox.Show("Thêm thành công");
+            LoadDanhSachNhaCungCap();
+            ClearThongTin();
+        }
+
+        private void ButtonXemDanhSach_Click(object sender, EventArgs e)
+        {
+            LoadDanhSachNhaCungCap();
+            ClearThongTin();
+        }
+
+        private void QuanLy_Load(object sender, EventArgs e)
+        {
+            LoadDanhSachNhaCungCap();
+        }
+
         public quanLy(string user, string chucvu, string tenhienthi)
         {
             InitializeComponent();
@@ -29,6 +178,12 @@ namespace AppCoffee
             this.User = user; // gán tên đăng nhập
             this.Chucvu = chucvu; // gán chức vụ
             this.Tenhienthi = tenhienthi; // gán tên hiển thị
+            this.Load += QuanLy_Load;
+            this.buttonXemDanhSach.Click += ButtonXemDanhSach_Click;
+            this.buttonThemNhaCungCap.Click += ButtonThemNhaCungCap_Click;
+            this.buttonXoaNhaCungCap.Click += ButtonXoaNhaCungCap_Click;
+            this.buttonSuaNhaCungCap.Click += ButtonSuaNhaCungCap_Click;
+            this.dataGridViewNhaCungCap.CellClick += DataGridViewNhaCungCap_CellClick;
         }
 
 
@@ -775,7 +930,5 @@ namespace AppCoffee
             da_DoanhThu.Fill(ds);
             dgv_DoanhThu.DataSource = ds.Tables[0];
         }
-
-
     }
 }

@@ -37,7 +37,8 @@ namespace AppCoffee
                         DonViChuan = row["DonViChuan"].ToString(),
                         SoLuongTonKho = Convert.ToDouble(row["SoLuongTonKho"]),
                         TonkhoToiThieu = Convert.ToDouble(row["TonKhoToiThieu"]),
-                        TinhTrang = Convert.ToInt32(row["TinhTrang"])
+                        TinhTrang = Convert.ToInt32(row["TinhTrang"]),
+                        MaNhaCungCap = Convert.ToInt32(row["MaNhaCungCap"])
                     };
 
                     nguyenLieus.Add(nguyenLieu);
@@ -82,10 +83,10 @@ namespace AppCoffee
 
         public bool ThemMoiNguyenLieu(NguyenLieu nguyenLieu)
         {
-            string query = "insert into NguyenLieu (TenNguyenLieu, DonViChuan, MoTa, TonKhoToiThieu) values (@ten, @donVi, @moTa, @tonKhoToiThieu)";
+            string query = "insert into NguyenLieu (TenNguyenLieu, DonViChuan, MoTa, TonKhoToiThieu, MaNhaCungCap) values (@ten, @donVi, @moTa, @tonKhoToiThieu, @maNhaCungCap)";
             try
             {
-                int rowAffected = _database.ExecuteNonQuery(query, CommandType.Text, new SqlParameter("@ten", nguyenLieu.TenNguyenLieu), new SqlParameter("@donVi", nguyenLieu.DonViChuan), new SqlParameter("@moTa", nguyenLieu.MoTa), new SqlParameter("@tonKhoToiThieu", nguyenLieu.TonkhoToiThieu));
+                int rowAffected = _database.ExecuteNonQuery(query, CommandType.Text, new SqlParameter("@ten", nguyenLieu.TenNguyenLieu), new SqlParameter("@donVi", nguyenLieu.DonViChuan), new SqlParameter("@moTa", nguyenLieu.MoTa), new SqlParameter("@tonKhoToiThieu", nguyenLieu.TonkhoToiThieu), new SqlParameter("@maNhaCungCap", nguyenLieu.MaNhaCungCap));
                 return rowAffected > 0;
             }
             catch (Exception ex)

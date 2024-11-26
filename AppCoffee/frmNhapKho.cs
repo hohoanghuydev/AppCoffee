@@ -13,6 +13,7 @@ namespace AppCoffee
     public partial class frmNhapKho : Form
     {
         NguyenLieuController _controller = new NguyenLieuController();
+        NhaCungCapController _controllerNhaCungCap = new NhaCungCapController();
         public frmNhapKho()
         {
             InitializeComponent();
@@ -145,7 +146,8 @@ namespace AppCoffee
                 TenNguyenLieu = textBoxTenNguyenLieu.Text,
                 MoTa = textBoxMoTa.Text,
                 TonkhoToiThieu = Convert.ToDouble(numericUpDownSoLuongToiThieu.Value),
-                DonViChuan = textBoxDonViTinh.Text
+                DonViChuan = textBoxDonViTinh.Text,
+                MaNhaCungCap = Convert.ToInt32(comboBoxNhaCungCap.SelectedValue)
             };
 
             if (!_controller.ThemMoiNguyenLieu(nguyenLieu))
@@ -165,12 +167,47 @@ namespace AppCoffee
 
         private void ReloadDataGridView()
         {
-            dataGridViewNguyenLieu.DataSource = _controller.LayDanhSachNguyenLieu();
+            List<NguyenLieu> nguyenLieus = _controller.LayDanhSachNguyenLieu();
+            
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.Add("MaNguyenLieu", typeof(int));
+            dataTable.Columns.Add("TenNguyenLieu", typeof(string));
+            dataTable.Columns.Add("MoTa", typeof(string));
+            dataTable.Columns.Add("DonViChuan", typeof(string));
+            dataTable.Columns.Add("SoLuongTonKho", typeof(int));
+            dataTable.Columns.Add("TonKhoToiThieu", typeof(int));
+            dataTable.Columns.Add("TinhTrang", typeof(string));
+            dataTable.Columns.Add("NhaCungCap", typeof(string));
+
+            foreach (NguyenLieu item in nguyenLieus)
+            {
+                DataRow dataRow = dataTable.NewRow();
+                dataRow["MaNguyenLieu"] = item.MaNguyenLieu;
+                dataRow["TenNguyenLieu"] = item.TenNguyenLieu;
+                dataRow["MoTa"] = item.MoTa;
+                dataRow["DonViChuan"] = item.DonViChuan;
+                dataRow["SoLuongTonKho"] = item.SoLuongTonKho;
+                dataRow["TonKhoToiThieu"] = item.TonkhoToiThieu;
+                dataRow["TinhTrang"] = item.TinhTrang == 0 ? "Sắp hết" : "Còn hàng";
+                dataRow["NhaCungCap"] = (_controllerNhaCungCap.LayNhaCungCap(item.MaNhaCungCap) as NhaCungCap).TenNhaCungCap;
+
+                dataTable.Rows.Add(dataRow);
+            }
+
+            dataGridViewNguyenLieu.DataSource = dataTable;
         }
 
         private void FrmNhapKho_Load(object sender, EventArgs e)
         {
             ReloadDataGridView();
+            LoadDanhSachNhaCungCap();
+        }
+
+        private void LoadDanhSachNhaCungCap()
+        {
+            comboBoxNhaCungCap.DataSource = _controllerNhaCungCap.LayDanhSachNhaCungCap();
+            comboBoxNhaCungCap.DisplayMember = "TenNhaCungCap";
+            comboBoxNhaCungCap.ValueMember = "MaNhaCungCap";
         }
     }
 }
